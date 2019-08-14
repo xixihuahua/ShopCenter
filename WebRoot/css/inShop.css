@@ -1,0 +1,140 @@
+.logo{
+				position:absolute;
+				margin-top:5px;
+				
+				
+			}
+			
+			.shoptitle{
+				position:absolute;
+				margin-top:20px;
+				margin-left:300px;
+				
+				
+			}
+			
+			
+			.shoptitle #shopname{
+				font-style:oblique;
+				font-weight:blod;
+				font-size:20px;
+				color:pink;
+			
+				
+			}
+			
+			.shoptitle #word{
+				background-color:skyblue;
+				color:gray;
+				
+				
+			}
+			
+			.search{
+				width:100%;
+				height:100px;
+				padding:25px 150px  15px  650px ;
+				background-color:white;
+			
+			}
+			
+			.search #searching{
+				width:550px;
+				height:38px;
+				border:2px solid pink;
+					
+			}
+			
+			.search button{
+				color:gray;
+				width:80px;
+				height:40px;
+				background-color:pink;
+				border:0px solid pink;
+				
+			}
+			
+			
+			.search  #btn_1{
+				margin-left:-4px;
+			}
+			
+			
+			
+			.navbar-default .navbar-nav>li>a{
+				border:none;
+				padding-top:8px ; 
+    			padding-bottom:0 ;
+   				height: 36px;
+				
+				color:gray;
+			}
+			
+			.navbar {
+				min-height:30px ;
+			}
+			
+			.navbar-default .navbar-nav>li>a:hover{
+				color:red;
+				text-decoration:underline;
+				
+			}
+			.navbar-nav{
+	
+				width:85%;
+			
+			}
+			
+			.navbar-nav>li{
+				width:10%;
+				
+			}
+		
+			.rank{
+				position:absolute;
+				margin-left:-263px;
+				background-color:ghostwhite;
+				width:100%;
+				height:45px;
+				line-height:45px;
+				
+				
+			}	
+			
+			
+			/*商品样式*/
+			.goods{
+					
+				margin-top:20px;
+				padding:0px 100px 0px 100px;
+				
+			}
+			
+		
+			.goods .frame{
+				
+				border:1px solid pink;
+				width:282px;
+				height:500px;
+				
+			}
+			
+			/*
+			底部样式
+			 */
+			
+			#footer{
+				margin-left:-625px;
+				
+				
+			} 
+			
+			
+			#footer > ul >li{
+					margin-left: 4px;
+					list-style-type:none;
+					display: inline-block;
+			}
+			#footer > ul{
+				text-align: center;
+			}

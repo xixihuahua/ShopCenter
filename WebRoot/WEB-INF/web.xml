@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>CenterServlet</servlet-name>
+    <servlet-class>com.shop.Controller.CenterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>CustomServlet</servlet-name>
+    <servlet-class>com.shop.Controller.CustomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>GoodsServlet</servlet-name>
+    <servlet-class>com.shop.Controller.GoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>GoodsTypeServlet</servlet-name>
+    <servlet-class>com.shop.Controller.GoodsTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.shop.Controller.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>SellerServlet</servlet-name>
+    <servlet-class>com.shop.Controller.SellerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>ShopServlet</servlet-name>
+    <servlet-class>com.shop.Controller.ShopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>ValidationServlet</servlet-name>
+    <servlet-class>com.shop.Controller.ValidationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>CarinfoServlet</servlet-name>
+    <servlet-class>com.shop.Controller.CarinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>SuperServlet</servlet-name>
+    <servlet-class>com.shop.Controller.SuperServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>OrderGoodsServlet</servlet-name>
+    <servlet-class>com.shop.Controller.OrderGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description> </description>
+    <display-name> </display-name>
+    <servlet-name>CustomComment</servlet-name>
+    <servlet-class>com.shop.Controller.CustomComment</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CenterServlet</servlet-name>
+    <url-pattern>/center.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomServlet</servlet-name>
+    <url-pattern>/custom.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsServlet</servlet-name>
+    <url-pattern>/goods.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsTypeServlet</servlet-name>
+    <url-pattern>/goodstype.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/order.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SellerServlet</servlet-name>
+    <url-pattern>/seller.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopServlet</servlet-name>
+    <url-pattern>/shop.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ValidationServlet</servlet-name>
+    <url-pattern>/vali.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarinfoServlet</servlet-name>
+    <url-pattern>/car.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SuperServlet</servlet-name>
+    <url-pattern>/super.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderGoodsServlet</servlet-name>
+    <url-pattern>/ordergoods.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomComment</servlet-name>
+    <url-pattern>/comment.do</url-pattern>
+  </servlet-mapping>
+
+  
+  <!-- 字符编码过滤器 -->
+   <filter>
+  	<filter-name>CharsetFilter</filter-name>
+  	<filter-class>filter.CharsetFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>CharsetFilter</filter-name>
+  	<url-pattern>*.do</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>CharsetFilter</filter-name>
+  	<url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+
+</web-app>

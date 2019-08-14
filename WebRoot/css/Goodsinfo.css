@@ -1,0 +1,339 @@
+@CHARSET "UTF-8";
+/*
+		导航样式
+		 */
+		.nav{
+			width: 100%;
+			height: 35px;
+			background-color: #f3a8b9;
+		}
+		.nav > ul > li{
+			list-style-type: none;
+			line-height: 35px;
+			display: inline-block;	
+
+		}
+		.nav > ul {
+			text-align: center;
+		}
+		.nav > ul > li > a{
+			text-decoration: none;
+			color: black;
+			font-family: Sans-serif;
+			color: gray;
+		}
+		.nav > ul > li > a:hover{
+			color: white;
+		}
+		
+		/*搜索框*/
+		 #select{
+			height: 80px;			
+		}
+		 #select >.left {
+			font-family: Sans-serif;
+			font-size: 20px;
+			font-weight: bolder;
+			line-height: 100px;
+		}
+		 #select >.right{
+			margin-top: 30px;
+		}
+
+		/*
+		商品详情样式
+		 */
+		
+		/*
+		商品标题
+		图片
+		 */
+		#wrapper{
+				width: 100%;
+				height: 580px;
+				margin-top: 50px;
+			}
+		#wrapper > #describe >img{
+				width: 400px;
+		}
+		#wrapper > #describe >div:first-child {
+				width: 400px;
+				font-family: Sans-serif;
+				font-weight: bolder;
+				text-align: center;
+				font-size: 16px;
+		}
+
+		#data{
+				background-color:#e5e4e4;
+				font-size: 16px;
+				width: 400px;
+				font-family: Sans-serif;
+			}
+
+			#image{
+				
+				float: left;
+				top: 3px;
+			}
+			#small{
+				width: 430px;
+				height: 430px;
+				margin-left: 200px;
+				/*overflow 内容溢出元素框时发生的事情 visible hidden scroll*/
+				overflow:hidden;
+				
+				z-index: 1;
+			}
+		 #small>img{
+				width:430px;
+				height:430px;
+			}
+			
+			#big{
+				width:300px;
+				height:300px;
+			
+				margin-top:-420px;
+				margin-left:650px;
+				border: 1px solid #ccc;
+				position: absolute;
+				overflow:hidden;
+				z-index:1;
+				display: none;
+			}
+			#slider {
+			width: 140px;
+			height: 140px;
+			background: rgba(135,135,135,0.4);
+			position: absolute;
+			margin-top:170px;
+			margin-left:200px;
+			
+			display: none;
+			}
+			#bottom{
+				width: 430px;
+				margin: 5px 0px 0px 200px;
+				border: 1px solid gray;
+			}
+			#bottom>a>img{
+				width: 138px;
+				height: 137px;
+				border: 1px solid black;	
+			}
+			#describe{
+				
+				float: left;
+				margin-left: 50px;
+			}
+			#describe>h3{
+				text-align: center;
+			}
+			
+			#discount{
+				color: red;
+			}
+			dt{
+				float: left;
+				text-align: left;
+				font-weight: normal;
+				font-size: 12px;	
+			}
+			dd{
+				position: relative;
+				left: 20px;
+				
+			}
+			#describe>dl{
+				font-size: 12px;
+			}
+			#panel{
+				width: 400px;
+				height: 60px;
+				border: 1px dotted #e5e4e4;
+				
+			}
+			#panel>ul{
+				margin: 0 auto;
+				line-height: 60px;
+			}
+			ul>li{
+				
+				float: left;
+				list-style: none;
+				margin-left: 10px;
+			}
+			ul>li>span{
+				margin-left: 5px;
+			}
+			.red{
+				color: red;
+				
+			}
+			#count{
+				position: relative;
+				top: 20px;
+				width: 500px;
+				height: 60px;
+				text-align: left;
+				float: left;
+				line-height: 60px;
+			}
+			#count>dl{
+				float: left;
+			}
+			.count dd{
+				font-size: 15px;
+				float: left;
+			}
+			.count form{
+				float: left;
+			}
+			.stock{
+				position: relative;
+				left: 80px;
+				line-height: 60px;
+				font-size: 13px;
+				color: #C0C0C0;
+			}
+			.stock dd{
+				float: left;
+				position: relative;
+				left: 5px;
+			}
+			#service{
+				position: relative;
+				top: 15px;
+			}
+			#service dt{
+				color: #404040;
+			}
+			#service li{
+				color: gray;
+			}
+			
+			.buy>form{
+				float: left;
+				margin-left: 15px;
+			}
+			#buy{
+				
+				position: relative;
+				top: 60px;
+				width: 150px;
+				height: 60px;
+				background-color: #EBCCCC;
+				border: 1px solid salmon;
+				text-align: center;
+				color: red;
+				font-size: 15px;
+			}
+			#add{
+				position: relative;
+				top: 60px;
+				width: 150px;
+				height: 60px;
+				background-color: #D43F3A;
+				border: 1px solid salmon;
+				text-align: center;
+				color: white;
+				font-size: 15px;
+			}
+			
+		
+			
+
+
+			/*评论区*/	
+			#box{
+				width: 1000px;
+				height: 500px;
+				margin: 0 auto;
+				margin-top: 80px;
+				
+			}
+			#box > #left{
+				width: 190px;
+				height: 150px;
+				text-align:center;
+				border: solid #fafafa  2px;
+			}
+			#box > #left > #top {
+				width: 185px;
+				height: 50px;		
+				line-height: 50px;
+				background-color: #efefef;
+			}
+
+			#box > #left > #middle {
+				height: 50px;
+				line-height: 50px;
+			}
+			#box > #left >#foot{
+				height: 50px;
+				line-height: 30px;
+			}
+
+			#box >div {
+				float: left;
+			}
+
+			#box > #right {
+				width: 800px;
+				height: 600px;
+				margin-left: 10px;
+				border: #efefef solid 1px;
+				display: block;
+			}
+			#box > #right > #top{
+				display: inline-block;
+				height: 50px;
+				width: 800px;
+				line-height: 50px;
+				font-weight: bolder;
+				border:solid #efefef 1px;
+				
+			}
+			#box > #right >#middle{
+				height: 120px;
+				border:solid #efefef 1px;
+
+			}
+			#box > #right > #middle >.d1{
+				margin-left: 20px;		
+			}
+			#box > #right > #middle >.d2{
+				margin-left: 50px;
+				font-weight: bolder;
+				font-size: 25px;
+				color: red;		
+			}
+			#box > #right > #middle >.d3{
+				margin-left: 15px;
+				color: red;		
+			}
+			
+			
+			#right > #frm >table >thead > tr >th{
+				text-align: center;
+			}
+			#right > #frm >table > tbody > tr >td {
+				padding-top: 20px;
+				padding-bottom: 20px;
+				padding-right: 40px;
+				padding-left: 40px;
+				text-align: center;
+			}
+			#right > #top {
+				padding-left: 25px;
+			}
+			#right > #frm >table > tbody > tr >td > img{
+				height: 40px;
+				width: 40px;
+			}
+
+			.clear{
+				clear:both;
+			}
+	

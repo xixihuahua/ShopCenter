@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root name="shop">
+	<first name="请选择一级分类">
+		<second nmae="请选择二级分类">
+			<third name = "请选择三级分类"/>
+		</second>
+	</first>
+	    <first name="底妆">
+	    	<second name="粉底">
+	    		<third name = "控油持妆"></third>
+	    		<third name = "保湿滋润"></third>
+	    		<third name = "轻薄透气"></third>
+	    		<third name = "其他粉底"></third>
+	    	</second>
+	    	<second name = "遮瑕">
+	    		<third name = "脸部遮瑕"></third>
+	    		<third name = "眼部遮瑕"></third>
+	    		<third name = "其他遮瑕"></third>
+	    	</second >
+	    	<second name = "隔离">
+	    		<third name = "控油贴妆"></third>
+	    		<third name = "修饰瑕疵"></third>
+	    		<third name = "提亮肤色"></third>
+	    		<third name = "其他隔离"></third>
+	    	</second >
+	    	<second name = "其他底妆"></second>
+      </first> 
+	    
+	    <first name="唇部">
+	    	<second name = "口红"> 
+	    		<third name= "雾面口红"></third>
+	    		<third name = "滋润口红"></third>
+	    		<third name = "丝绒口红"></third>
+	    		<third name = "其他口红"></third>
+	    	</second>
+	    	<second name = "唇釉">
+	    		<third name= "哑光唇釉"></third>
+	    		<third name = "保湿唇釉"></third>
+	    		<third name = "偏光唇釉"></third>
+	    		<third name = "其他唇釉"></third>
+	    	</second>
+	    	<second name = "唇部护理">
+	    		<third name= "润唇膏"></third>
+	    		<third name = "唇部磨砂膏"></third>
+	    		<third name = "唇膜"></third>
+	    		<third name = "其他唇部护理"></third>
+	    	</second>
+	    	<second name = "其他唇部"></second>
+	    </first>
+	    
+	    <first name="眼部">
+	    	<second name = "眼影">
+	    		<third name= "单色眼影"></third>
+	    		<third name = "眼影盘"></third>
+	    		<third name = "其他眼影"></third>
+	    	</second>
+	    	<second name = "眼线">
+	    		<third name = "眼线液笔"></third>
+	    		<third name = "眼线胶笔"></third>
+	    		<third name = "眼线膏"></third>
+	    		<third name = "其他眼线"></third>
+	    	 </second>
+	    	 <second name = "睫毛膏">
+	    		<third name= "浓密型"></third>
+	    		<third name = "纤长型"></third>
+	    		<third name = "卷翘型"></third>
+	    		<third name = "其他睫毛膏"></third>
+	    	</second>
+	    	 <second name = "其他眼部"></second>
+	    </first>
+	    
+	    <first name="修容">
+	    	<second name = "高光">
+	    		<third name = "膏状高光"></third>
+	    		<third name = "粉状高光"></third>
+	    		<third name = "液体高光"></third>
+			    <third name = "其他高光"></third>
+	    	 </second>
+	    	<second name = "阴影">
+	    		<third name = "液体阴影"></third>
+	    		<third name = "粉状阴影"></third>
+	    		<third name = "膏状阴影"></third>
+                 <third name = "其他阴影"></third>
+	    	 </second>
+	    	 <second name = "修容盘">
+	    		<third name = "鼻影盘"></third>
+	    		<third name = "侧影盘"></third>
+	    		<third name = "发际线盘"></third>
+	    		<third name = "其他修容盘"></third>
+	    	 </second>
+	    	 <second name = "其他修容"></second>
+	    </first>
+	    
+	    <first name="眉毛">
+	    	<second name = "眉笔">
+	    		<third name = "旋转眉笔"></third>
+	    		<third name = "刀削眉笔"></third>
+	    		<third name = "拉线眉笔"></third>
+	    		<third name = "其他眉笔"></third>
+	    	 </second>
+	    	<second name = "染眉膏">
+	    		<third name = "防水染眉膏"></third>
+	    		<third name = "撕拉染眉膏"></third>
+	    		<third name = "半永久染眉膏"></third>
+	    		<third name = "其他染眉膏"></third>
+	    	 </second>
+	    	 <second name = "眉粉">
+	    		<third name = "防汗眉粉"></third>
+	    		<third name = "自然眉粉"></third>
+	    		<third name = "其他眉粉"></third>
+	    	 </second>
+	    	 <second name = "其他眉毛"></second>
+	    </first>
+	    
+	    <first name="护肤">
+	    	<second name = "水乳">
+	    		<third name = "控油水乳"></third>
+	    		<third name = "保湿水乳"></third>
+	    		<third name = "美白水乳"></third>
+	    		<third name = "其他水乳"></third>
+	    	 </second>
+	    	<second name = "精华">
+	    		<third name = "美白精华"></third>
+	    		<third name = "淡斑精华"></third>
+	    		<third name = "缩毛孔精华"></third>
+	    		<third name = "维稳精华"></third>
+	    		<third name = "抗老精华"></third>
+	    		<third name = "其他精华"></third>
+	    	 </second>
+	    	 <second name = "眼霜">
+	    		<third name = "淡化细纹"></third>
+	    		<third name = "去黑眼圈"></third>
+	    		<third name = "轻薄保湿"></third>
+	    		<third name = "其他眼霜"></third>
+	    	 </second>
+	    	 <second name = "面霜">
+	    		<third name = "补水保湿"></third>
+	    		<third name = "紧致皮肤"></third>
+	    		<third name = "敏感肌"></third>
+	    		<third name = "其他面霜"></third>
+	    	 </second>
+	    	 <second name = "其他护肤"></second>
+	    </first>
+	    
+		<first name = "其他"></first>
+</root>

@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+
+			/*
+			导航样式
+			 */
+			.navbar>.container-fluid>div>.nav>li>a:hover{
+				color: white;
+			}
+			.navbar>.container-fluid>div>a:hover{
+				color: white;
+			}
+			.navbar{
+				font-family: Sans-serif;
+				margin: 0;
+				height: 10px;
+				background-color: #f3a8b9;
+			}
+			.navbar{
+				min-height:40px!important;
+
+			}
+			.navbar-default .navbar-nav>li>a{
+				padding-top: 9px!important;
+				padding-bottom: 0px!important;
+			}
+
+			/*搜索框*/
+
+		 #select{
+			height: 80px;
+			background-color:  #f5f5f5;		
+		}
+		  #select >.left >ul >li{
+		  	list-style: none;
+		  	display: inline-block;
+		  	line-height: 40px;
+		  	margin-left: 10px;
+		  }
+		 #select >.left >ul >li > a{
+			 	color: #f3a8b9;
+			 	font-size: 17px;
+			 	margin-left: 5px;
+			 	text-decoration: none;
+		}
+		#select >.left >ul >li > a:hover{
+			  	color: red;
+		}
+		 #select >.right{
+			margin-top: 23px;
+		}
+	
+			
+		/*订单详情表样式*/
+		/*左边*/
+		#body{
+			width: 100%;
+			
+			margin-top: 50px;
+			/*border:solid 1px yellow;*/
+		}
+		#body > #left {
+			width: 150px;
+			
+			/*border:solid 1px gray;*/
+			margin-left: 150px;
+		}
+		#body > #left > ul >li{
+			list-style: none;
+			margin-top: 5px;
+		}
+		#body > #left > ul >:first-child{
+			color: red;
+			margin-top:20px;
+		}
+ 		#body > div{
+			float: left;
+		}
+
+		/*订单表样式*/
+		#body > #right {
+			width: 1000px;
+			
+			/*border:solid red 1px;*/
+			margin-left: 20px;
+		}
+		#body > #right> #frm > table > thead >tr> th {
+			text-align: center;
+			background-color: #f5f5f5;
+			padding:10px 25px 10px 25px;			
+		}
+		
+		#body > #right> #frm > table > thead >tr> th:nth-child(2){
+			padding-left: 60px;
+			padding-right: 60px;
+		}
+		#body > #right> #frm > table > thead >tr> th:nth-child(1){
+			padding-left: 13px;
+			padding-right: 13px;
+		}
+		#body > #right> #frm > table > tbody > tr > td {
+			text-align: center;
+			padding: 20px 25px 20px 25px; /*上 左 下 右*/
+		}
+		#body > #right> #frm > table > tbody > tr >td:nth-child(2){
+			width:200px;
+		}
+		#body > #right> #frm > table > tbody > tr >td:nth-child(5){
+			width: 120px;
+
+		}
+		#body > #right> #frm > table > tbody > tr >td:nth-child(5) > a{
+			text-decoration: none;
+			color: black;
+
+		}
+		#body > #right> #frm > table > tbody > tr >td:nth-child(5) > a:hover{
+			color: red;
+		}
+		#body > #right> #frm > table > tbody > tr >td >a >img {
+			width: 40px;
+			height: 40px;
+
+		}
+		#body > #right> #frm > table > tbody > tr >td >a{
+			text-decoration: none;
+			color: black;
+
+		}
+		#body > #right> #frm > table > tbody > tr >td >a:hover{
+			color: red;
+		}
+			

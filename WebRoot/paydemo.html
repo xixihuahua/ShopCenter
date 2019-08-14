@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>paydemo.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    <form>
+        <label><input type="radio" id="payWay1" name="payWay" value="1"/> 支付宝支付</label>
+        <label><input type="radio" id="payWay2" name="payWay" value="2" checked/> 微信支付</label>
+        <br/>
+        	支付金额：<input name="paymoney" id="paymoney"/>
+        <button type="button" id="demoBtn1">确认支付</button>        
+    </form>
+    
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$("#demoBtn1").click(function(){
+		var paymoney = parseInt($("#paymoney").val());
+		var payWay = $("#payWay1").prop("checked") ? "1" : "2";
+		if(isNaN(paymoney) || paymoney < 0.1){
+			alert("请输入正确的金额");
+			return;
+		}else{
+			location.href = "paydemo.jsp?paymoney="+paymoney+"&payWay="+payWay;
+		}
+	});
+   
+</script> 
+  </body>
+</html>

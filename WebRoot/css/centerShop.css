@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+
+			/*导航样式 */
+			.navbar>.container-fluid>div>.nav>li>a:hover{
+				color: white;
+			}
+			.navbar>.container-fluid>div>a:hover{
+				color: red;
+			}
+			.navbar{
+				font-family: Sans-serif;
+				background-color: #f3a8b9;
+				font-size: 10px;
+				min-height:40px!important;
+			}
+
+			#img > span{
+				font-weight: bolder;
+				font-size: 27px;
+			}
+
+			.navbar-default .navbar-nav>li>a{
+				padding-top: 9px!important;
+				padding-bottom: 0px!important;
+			}
+			/*店铺头像店铺名*/
+			#message{
+				width: 1000px;
+				height: 60px;
+				margin: 0 auto;
+			}
+			#message ul,li{
+				list-style: none;
+				float: left;
+				line-height: 60px;
+				font-size: 15px;
+				margin-right: 20px;
+			}
+			/*按钮组*/
+			#btn>.form1{
+				float: right;
+				margin-left: 10px;
+				line-height: 60px;
+			}
+			
+			
+			/*商品表格*/
+			#myshop{
+				position: relative;
+				top: 60px;
+				margin: 0 auto;
+				width: 1000px;
+				height: 60px;
+				text-align: center;
+			}
+			#myshop td{
+				text-align: left;
+				line-height: 50px;
+			}
+			/*.myshop{
+				width: 1000px;
+				height: 60px;
+				font-size: 15px;
+				background-color: #DDA0DD;
+				text-align: left;
+				line-height: 60px;
+			}*/
+			/*分页显示*/
+			#showpage{
+				height: 50px;
+				width: 400px;
+				border: 1px dotted pink;
+				position: relative;
+				top: 450px;
+				text-align: center;
+				line-height: 50px;
+				margin: 0 auto;
+			}
+			/*删除按钮*/
+			#deletebtn{
+				width: 100px;
+				height: 30px;
+				
+			}
+	

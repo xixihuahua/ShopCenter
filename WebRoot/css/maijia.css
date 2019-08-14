@@ -1,0 +1,115 @@
+	
+	#btn{
+	margin-top:10%;
+	position:relative;
+	}
+	
+	.d1{
+		height: 150px;
+		width: 100%;
+		position:relative;
+	}
+	.d2>li>a{
+		top: 12px;
+	}
+	.d2>li>a>span{
+		font-size: 10px;
+	}
+	#d3{
+		position: relative;
+		left: 275px;
+		}
+	#d4{
+			float: right;
+		}
+		.d5{
+		height: 61px;
+		width: 100%;
+		position:fixed;
+		top: 81px;
+		}
+	.d6{
+		height: 61px;
+		width: 100%;
+		position:fixed;
+	}
+	.d7>li>a{
+		left: 150px;
+	font-size: 30px;
+	top: 3px;
+	}	
+		
+	#d8{
+			
+			float: right;
+		}
+		#input{
+				height: 50px;
+				width: 500px;
+				position: relative;
+				top: 3px;
+				
+			}
+			#input>input{
+				height: 50px;
+			}
+			#d9{
+				height: 1000px;
+				width: 100%;
+				background-color: white;
+				position: relative;
+				
+			}
+			#d10{
+				height: 1000px;
+				width: 1000px;
+				position: relative;
+				background-color: beige;
+				margin: 0 auto;
+				top: 141px;
+			}
+			.d11{
+				height: 100px;
+				width: 1000px;
+				top: 141px;
+				left: 175px;
+			}
+			.d12{
+				height: 100px;
+				width: 1000px;
+				position: relative;
+				z-index: 0;
+			}
+			
+			
+			.d13>li>a{
+				top: -9px;
+				
+				
+			}	
+			.d14>li>a{
+				left: 10px;
+				font-size: 20px;
+				top: 20px;
+			}	
+			.d15{
+				height: 50px;
+				width: 1000px;
+				top: 241px;
+				left: 175px;
+			}
+			.d16{
+				height: 50px;
+				width: 1000px;
+				position: relative;
+				
+			}
+			.d16>li>a{
+				
+				font-size: 20px;
+				
+			}	
+			#table{
+				position: relative;
+				top: 150px;
+			}

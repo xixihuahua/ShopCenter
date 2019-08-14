@@ -1,0 +1,46 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    
+    <title>My JSP 'foot.jsp' starting page</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery.min.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath }/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/new_file1.css" />
+
+  </head>
+  
+  <body>
+    
+<div id="d17" align="center">
+	关于我们 帮助中心 开放平台 诚聘英才 联系我们 网站合作 法律声明 隐私权政策 知识产权 廉正举报<br>
+<a href="https://www.alibabagroup.com/cn/global/home">阿里巴巴集团</a>| <a href="https://www.taobao.com/?spm=a1z08.2.1581860521.1.140d978bRqihgK">淘宝网</a> |<a href="https://www.tmall.com/?spm=a21bo.2017.201859.1.6aa011d98tQobn">天猫</a>  |<a href="https://ju.taobao.com/?refpid=mm_26632360_8858797_45058250440&keyword=%E5%A5%B3%E8%A3%85">聚划算</a>  |<a href="http://seller.aliexpress.com/">全球速卖通</a>  |<a href="http://www.alibaba.com/">阿里巴巴国际交易市场</a>| <a href="http://www.1688.com" >1688</a> | <a href="http://www.alimama.com?spm=a2e15.8261149.1997523009.8.5ba229b4AC8wPC" >阿里妈妈</a> |<a href="http://www.fliggy.com/" >飞猪</a> | <a href="http://www.aliyun.com" >阿里云计算</a> |
+<a href="http://www.alios.cn/" >AliOS</a>|
+<a href="http://www.aliqin.cn/" >阿里通信</a>|
+<a href="http://www.etao.com/" >一淘</a>|
+<a href="http://www.net.cn" >万网</a>|
+<a href="http://www.autonavi.com/">高德</a>|
+<a href="http://www.uc.cn/" >UC</a>|
+<a href="http://www.umeng.com/" >友盟</a>|
+<a href="http://www.xiami.com" >虾米</a>|
+<a href="https://www.damai.cn/" >大麦网</a>|
+<a href="http://www.dingtalk.com/?lwfrom=20150130160830727" >钉钉</a>|
+<a href="https://www.alipay.com" >支付宝</a><br>
+
+增值电信业务经营许可证： 湘B2-20110446 网络文化经营许可证：湘网文[2015]0295-065号 12318举报 出版物网络交易平台服务经营备案证： 新出发湘备字第001号 <br>
+互联网违法和不良信息举报电话：0571-81683755 GouWuShangCheng.com   湘公网安备 33010002000120号 （湘）网械平台备字[2018]第00002号 <br>
+	&copy; 2018 GouWuShangCheng.com 版权所有
+
+</div>
+	
+  </body>
+</html>

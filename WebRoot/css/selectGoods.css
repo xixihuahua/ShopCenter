@@ -1,0 +1,163 @@
+@CHARSET "UTF-8";
+	/*头部搜索样式*/
+			.head{
+				position:fixed;
+				z-index:9999;
+				width:100%;
+				height:82px;
+				margin-top:-82px;
+				background-color:white;
+				
+			}
+		
+			.head #choice{
+				background-color:pink;
+				border:0px solid pink;
+		 		height: 40px;
+		 	
+			}
+		
+		
+			.head #searchbaby{
+				border-top:2px solid pink;
+				border-bottom:2px solid pink;
+				border-left:0px  solid  pink; 
+				border-right:0px  solid pink; 
+				width: 900px;
+				height: 38px;
+				margin-left:-4px;		
+			}
+			 ul,li{
+				list-style: none;
+				float: left;
+				line-height: 60px;
+				font-size: 15px;
+				margin-right: 20px;
+			}
+			
+			.head #btn{
+				border:0px solid pink;
+				margin-left:-4px;
+					
+				color:gray;	
+				width: 100px;
+				height: 40px;
+				background-color:pink;
+				
+			
+			}
+		/*文字栏样式*/
+		.word{
+			position:relative;
+			z-index:9;
+			margin-top:82px;
+			margin-bottom:-20px;
+			color:gray;
+			background-color:pink;
+			width:100px;
+			height:42px;
+			font-size:17px;
+			color:white;
+			text-align:center ;
+			line-height: 50px; /*行距设为与div高度一致*/
+			
+		}
+		
+		/*固定的广告图样式*/
+		.adv{
+    		
+    			width:100%;
+    			height:175px;
+    			background-image:url('../images/adv.jpg');
+    			margin-top:0px;
+    		
+    		}
+    		
+    		
+    		/*导航样式*/
+			.nav{
+				postion:absolute;
+				margin-top:-1px;
+				
+				
+			}
+			
+			.navbar-default .navbar-nav>li>a{
+				border:none;
+				padding-top:12px ; 
+    			padding-bottom:0 ;
+   				height: 44px;
+   				
+				color:gray;
+			}
+			
+			.navbar {
+				min-height:30px ;
+			}
+			.navbar-default .navbar-nav>li>a:hover{
+				color:red;
+				text-decoration:underline;
+				
+			}
+			.navbar-nav{
+	
+				width:96%;
+			
+			}
+			
+			.navbar-nav>li{
+				width:10%;
+				
+			}
+			/*商品样式*/
+			.goods{
+					
+				margin-top:20px;
+				padding:0px 100px 0px 100px;
+				
+			}
+			
+		
+			.goods .frame{
+				
+				border:1px solid pink;
+				width:282px;
+				height:500px;
+				
+			}
+			
+			
+			/*
+			底部样式
+			 */
+			
+			#footer{
+				margin-left:100px;
+				
+				
+			} 
+			/*店铺样式*/
+			#shops{
+				
+				margin-top:20px;
+				padding:0px 80px 0px 100px;
+				
+			}
+			
+			 .shops .frame1{
+				border:1px solid whitesmoke;
+				width:300px;
+				height:350px;
+				
+			}
+			
+			
+			#footer > ul >li{
+					margin-left: 4px;
+					list-style-type:none;
+					display: inline-block;
+			}
+			#footer > ul{
+				text-align: center;
+			}
+			

@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+	
+			/*
+			导航样式
+			 */
+			.navbar>.container-fluid>div>.nav>li>a:hover{
+				color: white;
+			}
+			.navbar>.container-fluid>div>a:hover{
+				color: white;
+			}
+			.navbar{
+				font-family: Sans-serif;
+				margin: 0;
+				height: 10px;
+				background-color: #f3a8b9;
+			}
+
+				/*
+			}
+			插入图片
+			 */
+			
+			#img > .dropdown > button{
+				background-color: #f0f0f0;
+				font-size: 20px;
+				font-weight: bolder;
+			}
+			.dropdown{		
+				z-index: 2;
+			}
+			/*
+			注册表样式
+			 */
+			input{
+				border-radius: 5px;
+				margin-bottom: 15px;
+			}
+			#frm{
+				height: 600px;
+				font-family: Sans-serif;
+				font-weight: bolder;
+				background: url(../images/background.jpg) no-repeat;
+				background-size: 100% 90%;
+			}
+			.left{
+				width: 100px;
+				text-align: right;
+			}
+			.right{
+				width:100px;
+				text-align:left;
+			}
+			#frm > #box> #box1 > div >div{
+				float: left;
+			}
+			#frm > #box >#box2 > div >div{
+				float: left;
+			}
+			
+			.right{
+				margin-left: 20px;
+				margin-bottom: 15px;
+			}
+			#d1{
+				margin-right: 20px;
+				
+			}
+			.red{
+				color: red;
+			}
+			#frm > #box {
+				width: 450px;
+				height: 500px;				
+				margin-left: 200px;
+				margin-top: 25px;
+				padding-left: 20px;
+				background-color: white;
+				position: absolute;
+			}
+			/*
+			用户选择按钮
+			 */
+			#frm > #box > #box1 > .dropdown >.btn{
+				margin-top: 30px;
+				margin-left: 150px;
+				margin-bottom: 10px;
+				background-color: white;
+				font-weight: bolder;
+				font-size: 20px;
+
+			}
+			#frm > #box > #box1 > .dropdown > ul{
+				margin-left: 150px;
+			}
+			/*			
+			提交按钮
+			 */
+			#frm > #box >#box2 >div > .but{
+				width: 100px;
+				margin-left: 150px;
+				background-color:#f3a8b9; 
+			}
+			#frm > #box >#box2 >:nth-child(2)> input {
+				margin-left: 120px;
+			}
+				.navbar{
+				min-height:40px!important;
+
+			}
+			.navbar-default .navbar-nav>li>a{
+				padding-top: 9px!important;
+				padding-bottom: 0px!important;
+			}
+			
+
+			/*
+			底部样式
+			 */
+			#footer > ul >li{
+					list-style-type:none;
+					display: inline-block;
+			}
+			#footer > ul{
+				text-align: center;
+			}

@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+/*
+			导航样式
+			 */
+			.navbar{
+				margin: 0;
+			}
+			.navbar>.container-fluid>div>.nav>li>a:hover{
+				color: red;
+			}
+			#a1{
+				color: red;
+			}
+			.navbar>.container-fluid>div>a:hover{
+				color: red;
+			}
+			.navbar{
+				font-family: Sans-serif;
+				
+				font-size: 10px;
+			}
+
+			/*
+			登录表样式
+			 */
+			.form-horizontal{
+				margin: 150px 250px;
+				background-color:#e9e9f2;
+				position: relative;
+				
+			}
+			.center{	
+				width:100%;
+				background: url(../images/background.jpg) no-repeat;
+				overflow: hidden;
+				background-size: 100% 80%;
+			}
+
+			/*登录按钮*/
+			.center > .box-top >.form-group > .but>.but1{
+				background-color:  #f3a8b9;
+				color: white;
+			}
+			.center > .box-top >.form-group > div >a{
+				text-decoration: none;
+				color: black;
+			}
+			.center > .box-top >.form-group > div >a:hover{
+				color: red;
+			}
+	 		
+			/*
+			选择登录用户
+			 */
+			.center> .box-top > .dropdown > .btn{
+					background-color: #e9e9f2;
+					font-weight: bolder;
+					font-size: 20px;
+			}
+			.center> .box-top > .dropdown{	
+				z-index: 2;
+			}
+			.center> .box-top > .dropdown > ul {
+				margin-left: 120px;
+			}
+
+			#footer{
+				position: absolute;
+			}
+			.navbar{
+				min-height:40px!important;
+
+			}
+			.navbar-default .navbar-nav>li>a{
+				padding-top: 9px!important;
+				padding-bottom: 0px!important;
+			}
+			#namemsg{
+				color:red;
+			
+				font-size: 12;
+			}
+			#pwdmsg{
+				color:red;
+				font-size: 12;
+			}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<!-- 数据库驱动包 -->
+		<property name="driverClass">oracle.jdbc.OracleDriver</property>
+		<!-- 数据库连接URL -->
+		<property name="jdbcUrl">jdbc:oracle:thin:@localhost:1521:XE</property>
+		<!-- 
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/mall?allowMultiQueries=true</property>
+		 -->
+		<!-- 用户名 -->
+		<property name="user">scott</property>
+		<!-- 密码 -->
+	    <property name="password">tigger</property>
+		<!-- 
+		 	连接池在无空闲连接可用时一次性创建的新数据库连接数 
+		 	默认值：3
+		-->
+	    <!-- 指定连接池中保留的最大连接数. Default:15-->  
+        <property name="maxPoolSize" value="50"/>  
+        <!-- 指定连接池中保留的最小连接数-->  
+        <property name="minPoolSize" value="5"/>  
+        <!-- 指定连接池的初始化连接数  取值应在minPoolSize 与 maxPoolSize 之间.Default:3-->  
+        <property name="initialPoolSize" value="5"/>  
+        <!-- 最大空闲时间,600秒内未使用则连接被丢弃。若为0则永不丢弃。 Default:0-->  
+        <property name="maxIdleTime" value="600"/>  
+        <!-- 当连接池中的连接耗尽的时候c3p0一次同时获取的连接数. Default:3-->  
+        <property name="acquireIncrement" value="5"/>  
+        <!-- JDBC的标准,用以控制数据源内加载的PreparedStatements数量。  
+        但由于预缓存的statements属于单个connection而不是整个连接池所以设置这个参数需要考虑到多方面的因数.如果maxStatements与maxStatementsPerConnection均为0,则缓存被关闭。Default:0-->  
+        <property name="maxStatements" value="5"/>  
+        <!-- 每60秒检查所有连接池中的空闲连接.Default:0 -->  
+        <property name="idleConnectionTestPeriod" value="60"/>
+        
+        
+    </default-config>
+    
+</c3p0-config>
